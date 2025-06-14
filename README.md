@@ -13,7 +13,9 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 
 ### 安装 zsh / zim
-sudo apt install zsh
+sudo apt install zsh  
+
+sudo apt install fzf 
 
 curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
 
