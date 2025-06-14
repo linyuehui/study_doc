@@ -1,0 +1,24 @@
+# Zim 模块加载示例，简洁只用 completion 模块管理补全
+
+# 其它常用模块
+zmodule environment
+zmodule git
+zmodule input
+zmodule termtitle
+zmodule utility
+
+# 提示信息相关
+zmodule duration-info
+zmodule git-info
+zmodule asciiship
+
+# 补全相关 —— 只启用 completion 模块
+zmodule completion
+
+# zsh-completions 如果你用它，注释掉下面这行，避免重复调用 compinit
+# zmodule zsh-users/zsh-completions --fpath src
+
+# 语法高亮和历史搜索
+zmodule zsh-users/zsh-syntax-highlighting
+zmodule zsh-users/zsh-history-substring-search
+zmodule zsh-users/zsh-autosuggestions
